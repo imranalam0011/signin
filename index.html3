@@ -1,0 +1,27 @@
+<?php require "header.php"; ?>
+<div class="signupForm">
+    <h1>SIGN UP</h1>
+    <form action="" method="post">
+        Name:
+        <input type="text" name="name" placeholder="Enter your name"><br />
+        Email-id:
+        <input type="email" name="email" placeholder="Enter your email"><br />
+        Password:
+        <input type="password" name="password" placeholder="Enter your password"><br />
+        Gender:
+        <select name="gender" id="">
+        <option value="">Select Gender</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Other">Other</option>
+        </select><br />
+        M-number:
+        <input type="number" name="mobile" placeholder="Enter your mobile"><br />
+        Address:
+        <textarea name="address" placeholder="enter address"></textarea><br />
+        <input type="submit" value="Sign Up" name="submit">
+    </form>
+</div>
+</body>
+
+</html>
